@@ -1,0 +1,67 @@
+name: Incremental Sync Upstream Repository (Master Branch)
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时运行一次
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  sync-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          path: repo
+
+      - name: Configure Git User
+        run: |
+          # 设置 Git 用户信息（全局生效）
+          git config --global user.email "852614921@qq.com"
+          git config --global user.name "Gavin2233"
+          
+          # 确认 Git 用户信息是否正确
+          echo "Git user.name: $(git config --global user.name)"
+          echo "Git user.email: $(git config --global user.email)"
+
+      - name: Fetch Upstream Repository
+        run: |
+          cd repo
+          
+          # 确保 Git 用户配置正确
+          git config --global user.email "852614921@qq.com"
+          git config --global user.name "Gavin2233"
+          echo "Git user.name: $(git config user.name)"
+          echo "Git user.email: $(git config user.email)"
+          
+          # 添加上游仓库（如果已存在，则不会报错）
+          git remote add upstream https://github.com/eeeeeeeeee-code/POC.git || true
+          
+          # 获取上游仓库的最新代码
+          git fetch upstream
+          
+          # 切换到当前仓库的主分支（本仓库可能是 main 或 master）
+          git symbolic-ref HEAD refs/heads/master || git symbolic-ref HEAD refs/heads/main
+          
+          # 创建临时分支用于合并
+          git checkout -b temp-merge-branch
+          
+          # 合并上游仓库的 master 分支
+          git merge upstream/master --no-commit --no-ff --allow-unrelated-histories
+          
+          # 检查是否有变更
+          if git diff --cached --quiet; then
+            echo "No changes to merge."
+            git checkout master
+            git branch -D temp-merge-branch
+            exit 0
+          else
+            # 确保 Git 用户身份设置正确
+            git config --global user.email "852614921@qq.com"
+            git config --global user.name "Gavin2233"
+            
+            # 提交合并并推送
+            git commit -m "Incr: Sync with upstream master branch"
+            git push origin master
+            git branch -D temp-merge-branch
+          fi
