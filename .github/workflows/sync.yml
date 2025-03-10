@@ -1,4 +1,4 @@
-name: Incremental Sync Upstream Repository (Master Branch)
+name: Incremental Sync Upstream Repository (Main Branch)
 
 on:
   schedule:
@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
-          path: repo  # 确保仓库检出到 repo 目录
+          path: repo
 
       - name: Configure Git User
         run: |
@@ -43,8 +43,8 @@ jobs:
           # 创建临时分支用于合并
           git checkout -b temp-merge-branch
           
-          # 合并上游仓库的 master 分支
-          git merge upstream/master --no-commit --no-ff --allow-unrelated-histories
+          # 合并上游仓库的 main 分支（如果上游仓库使用 main 而非 master）
+          git merge upstream/main --no-commit --no-ff --allow-unrelated-histories
           
           # 检查是否有变更
           if git diff --cached --quiet; then
@@ -54,7 +54,7 @@ jobs:
             exit 0
           else
             # 提交合并并推送
-            git commit -m "Incr: Sync with upstream master branch"
+            git commit -m "Incr: Sync with upstream main branch"
             git push origin main  # 或 git push origin master
             git branch -D temp-merge-branch
           fi
