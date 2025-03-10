@@ -12,10 +12,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
-          path: repo
+          path: repo  # 确保仓库检出到 repo 目录
 
       - name: Configure Git User
         run: |
+          # 进入仓库目录
+          cd repo
+          
           # 设置 Git 用户信息（仅对当前仓库生效）
           git config user.email "852614921@qq.com"
           git config user.name "Gavin2233"
