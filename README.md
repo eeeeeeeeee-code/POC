@@ -9,8 +9,8 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
-# test111
-![img.png](img.png~~)
+# test
+![image](img.png)
 
 # 2025.03.17 新增漏洞
 - [Cleo Harmony接口Synchronization存在任意文件读取漏洞](./wpoc/Cleo%20Harmony/Cleo%20Harmony接口Synchronization存在任意文件读取漏洞.md)
