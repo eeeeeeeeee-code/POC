@@ -12,6 +12,14 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
+# 2025-09-01
+- [上海网仕科技TranscoderMS index存在SQL注入](./wpoc/上海网仕科技/上海网仕科技TranscoderMS%20index存在SQL注入.md)
+- [致远OA存在文件上传导致RCE(CVE-2025-34040)](./wpoc/致远OA/致远OA存在文件上传导致RCE(CVE-2025-34040).md)
+- [usdtAdmin收款管理系统存在excel敏感信息泄露](./wpoc/虚拟币买卖USDT场外交易所/usdtAdmin收款管理系统存在excel敏感信息泄露.md)
+- [天锐绿盘云文档安全管理uploadFolder存在文件上传](./wpoc/天锐绿盘云文档安全管理/天锐绿盘云文档安全管理uploadFolder存在文件上传.md)
+- [山石网科HSM-monitor存在任意文件上传](./wpoc/山石网科/山石网科HSM-monitor存在任意文件上传.md)
+- [索贝融媒体restore存在SQL注入漏洞](./wpoc/成都索贝数码科技/索贝融媒体restore%20存在SQL注入漏洞.md)
+
 # 2025-06-11
 - [金和OA-C6系统接口ActionDataSet存在XXE漏洞](./wpoc/金和OA/金和OA-C6系统接口ActionDataSet存在XXE漏洞.md)
 - [灵当CRM系统接口Playforrecord接口处存在任意文件读取漏洞](.//wpoc/灵当CRM/灵当CRM系统接口Playforrecord接口处存在任意文件读取漏洞.md)
