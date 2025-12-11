@@ -12,6 +12,10 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
+# 2025-12-11
+- [wpoc/浙江高格软件股份有限公司/高格智能制造目视化系统SCCJ参数存在SQL注入](/wpoc/浙江高格软件股份有限公司/高格智能制造目视化系统SCCJ参数存在SQL注入.md)
+- []()
+
 # 2025-09-01
 - [深圳市锐明技术股份有限公司Crocus系统RepairRecord.do文件上传](./wpoc/深圳市锐明技术股份有限公司/深圳市锐明技术股份有限公司Crocus系统RepairRecord.do文件上传.md)
 - [新中大ERP企业管理软件 NGInterface 存在SQL注入](./wpoc/新中大ERP企业管理软件/新中大ERP企业管理软件%20NGInterface%20存在SQL注入.md)
