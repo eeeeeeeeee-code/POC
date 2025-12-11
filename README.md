@@ -14,8 +14,13 @@
 
 # 2025-12-11
 - [高格智能制造目视化系统SCCJ参数存在SQL注入](./wpoc/浙江高格软件股份有限公司/高格智能制造目视化系统SCCJ参数存在SQL注入.md)
-- [喰星云·数字化餐饮服务系统home_check存在SQL注入.m](./wpoc/喰星云·数字化餐饮服务系统/home_check存在SQL注入.md)
-- [恒友摄影ERPlogin.ashx存在SQL注入](./wpoc/恒友摄影ERP/login.ashx存在SQL注入.md)
+- [喰星云·数字化餐饮服务系统home_check存在SQL注入.m](./wpoc/喰星云·数字化餐饮服务系统/喰星云·数字化餐饮服务系统home_check存在SQL注入.md)
+- [恒友摄影ERPlogin.ashx存在SQL注入](./wpoc/恒友摄影ERP/恒友摄影ERP的login.ashx存在SQL注入.md)
+- [蓝凌EIS智慧协同平台mail_xml存在XXE注入](./wpoc/蓝凌OA/蓝凌EIS智慧协同平台mail_xml存在XXE注入.md)
+- [点晴MIS管理信息系统login_out.asp存在SQL注入](./wpoc/点晴MIS管理信息系统/点晴MIS管理信息系统login_out.asp存在SQL注入.md)
+- [迪博数据决策系统downloadImpTemplet存在任意文件读取](./wpoc/迪博数据决策系统/迪博数据决策系统downloadImpTemplet存在任意文件读取.md)
+- [友加畅捷管理系统GetZTList存在信息泄露](./wpoc/友加畅捷管理系统/友加畅捷管理系统GetZTList存在信息泄露.md)
+- [朗新天霁人力资源管理系统UserInfo ZFMCWebService存在SQL注入](./wpoc/朗新天霁人力资源管理系统/朗新天霁人力资源管理系统UserInfo%20ZFMCWebService存在SQL注入.md)
 
 # 2025-09-01
 - [深圳市锐明技术股份有限公司Crocus系统RepairRecord.do文件上传](./wpoc/深圳市锐明技术股份有限公司/深圳市锐明技术股份有限公司Crocus系统RepairRecord.do文件上传.md)
