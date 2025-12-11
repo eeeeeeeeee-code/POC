@@ -22,7 +22,7 @@
 - [友加畅捷管理系统GetZTList存在信息泄露](./wpoc/友加畅捷管理系统/友加畅捷管理系统GetZTList存在信息泄露.md)
 - [朗新天霁人力资源管理系统UserInfo ZFMCWebService存在SQL注入](./wpoc/朗新天霁人力资源管理系统/朗新天霁人力资源管理系统UserInfo%20ZFMCWebService存在SQL注入.md)
 - [Dify系统命令执行漏洞(CVE-2025-55182)](./wpoc/Dify系统/Dify系统命令执行漏洞(CVE-2025-55182).md)
-- [大华ICC智能物联综合管理平台viewPDF存在任意文件读取](.//wpoc/大华/大华ICC智能物联综合管理平台viewPDF存在任意文件读取.md)
+- [大华ICC智能物联综合管理平台viewPDF存在任意文件读取](./wpoc/大华/大华ICC智能物联综合管理平台viewPDF存在任意文件读取.md)
 
 # 2025-09-01
 - [深圳市锐明技术股份有限公司Crocus系统RepairRecord.do文件上传](./wpoc/深圳市锐明技术股份有限公司/深圳市锐明技术股份有限公司Crocus系统RepairRecord.do文件上传.md)
