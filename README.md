@@ -14,7 +14,8 @@
 
 # 2025-12-11
 - [高格智能制造目视化系统SCCJ参数存在SQL注入](./wpoc/浙江高格软件股份有限公司/高格智能制造目视化系统SCCJ参数存在SQL注入.md)
-- [home_check存在SQL注入.m](./wpoc/喰星云·数字化餐饮服务系统/home_check存在SQL注入.md)
+- [喰星云·数字化餐饮服务系统home_check存在SQL注入.m](./wpoc/喰星云·数字化餐饮服务系统/home_check存在SQL注入.md)
+- [恒友摄影ERPlogin.ashx存在SQL注入](./wpoc/恒友摄影ERP/login.ashx存在SQL注入.md)
 
 # 2025-09-01
 - [深圳市锐明技术股份有限公司Crocus系统RepairRecord.do文件上传](./wpoc/深圳市锐明技术股份有限公司/深圳市锐明技术股份有限公司Crocus系统RepairRecord.do文件上传.md)
