@@ -22,7 +22,9 @@ CVE-2026-3395 漏洞会影响 MaxSite CMS，允许未经身份验证的用户访
 #Base64编码：
 ```
 admin/plugins/editor_markitup/preview-ajax.php
-
+```
+如下
+```
 YWRtaW4vcGx1Z2lucy9lZGl0b3JfbWFya2l0dXAvcHJldmlldy1hamF4LnBocA==
 ```
 
