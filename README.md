@@ -1,4 +1,4 @@
-<img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/faea008f-f744-409e-80df-0f44f2b5d9c4" /># 注意
+# 注意
 本项目是wy876漏洞库的备份,这里我们继承wy876佬的开源精神,所以这里我们继续维护这个项目。
 
 免责声明：
@@ -10,7 +10,6 @@
 
 公众号
 <img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/7e49f43f-cf15-492a-b98d-ad0357192b26" />
-
 
 
 # 漏洞收集
