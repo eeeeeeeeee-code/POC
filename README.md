@@ -15,6 +15,9 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
+# 2026-3-12
+-[wpoc/MaxSite CMS/MaxSite CMS未授权RCE漏洞](./wpoc/MaxSite%20CMS/MaxSite%20CMS未授权RCE漏洞.md)
+
 # 2025-12-11
 - [高格智能制造目视化系统SCCJ参数存在SQL注入](./wpoc/浙江高格软件股份有限公司/高格智能制造目视化系统SCCJ参数存在SQL注入.md)
 - [喰星云·数字化餐饮服务系统home_check存在SQL注入.m](./wpoc/喰星云·数字化餐饮服务系统/喰星云·数字化餐饮服务系统home_check存在SQL注入.md)
