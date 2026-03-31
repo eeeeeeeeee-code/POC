@@ -16,7 +16,6 @@
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
 # 2026-3-30
-- [飞企互联FE企业运营管理平台uploadAttachmentServlet文件上传](./wpoc/飞企互联/飞企互联FE企业运营管理平台uploadAttachmentServlet文件上传.md)
 - [LVS精益价值管理系统FileImport存在任意文件上传](./wpoc/LVS精益价值管理系统/LVS精益价值管理系统FileImport存在任意文件上传.md)
 - [预拌砼综合管理系统upload.ashx存在任意文件上传](./wpoc/预拌砼综合管理系统/预拌砼综合管理系统upload.ashx存在任意文件上传.md)
 - [玛智慧能源管理平台recharge存在SQL注入](./wpoc/玛智慧能源管理平台/玛智慧能源管理平台recharge存在SQL注入.md)
