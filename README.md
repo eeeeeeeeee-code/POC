@@ -1413,7 +1413,7 @@
 - [锐捷网络无线AC命令执行](./wpoc/锐捷/锐捷网络无线AC命令执行.md)
   
 ## 2024.03.24 新增漏洞
-- [飞企互联-FE企业运营管理平台uploadAttachmentServlet存在任意文件上传漏洞](./wpoc/飞企互联/飞企互联-FE企业运营管理平台uploadAttachmentServlet存在任意文件上传漏洞.md)
+- [飞企互联-FE企业运营管理平台uploadAttachmentServlet存在任意文件上传漏洞](./wpoc/飞企互联/飞企互联FE企业运营管理平台uploadAttachmentServlet文件上传.md)
 - [Netgear路由器boardDataWW.php存在RCE漏洞](./wpoc/路由器/Netgear路由器boardDataWW.php存在RCE漏洞.md)
 - [瑞友应用虚拟化系统-RAPAgent存在命令执行漏洞](./wpoc/瑞友天翼应用虚拟化系统/瑞友应用虚拟化系统-RAPAgent存在命令执行漏洞.md)
 - [福建科立讯通信指挥调度平台get_extension_yl.php存在sql注入漏洞](./wpoc/福建科立讯通信/福建科立讯通信指挥调度平台get_extension_yl.php存在sql注入漏洞.md)
