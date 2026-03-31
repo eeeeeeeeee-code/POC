@@ -16,6 +16,7 @@
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
 # 2026-3-30
+- [泛微 E-Cology10远程命令执行漏洞](./wpoc/泛微OA/泛微%20E-Cology10远程命令执行漏洞.md)
 - [Langflow框架远程代码执行(CVE-2026-33017)](./wpoc/Langflow框架/Langflow框架远程代码执行(CVE-2026-33017).md)
 - [Langflow框架jwt凭证泄露](./wpoc/Langflow框架/Langflow框架jwt凭证泄露.md)
 - [MaxSite CMS未授权RCE漏洞](./wpoc/MaxSite%20CMS/MaxSite%20CMS未授权RCE漏洞.md)
