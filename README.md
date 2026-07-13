@@ -16,6 +16,8 @@
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
 # 2026-7-13
+- [泛微-ecology-10 downLoadSyslog存在任意文件读取](./wpoc/泛微OA/泛微-ecology-10downLoadSyslog存在任意文件读取.md)
+- [CM信息同步管理系统upload.aspx存在任意文件上传](./wpoc/CM信息同步管理系统/CM信息同步管理系统upload.aspx存在任意文件上传.md)
 - [万能门店小程序dopagefxcount存在SQL注入](./wpoc/万能门店小程序/万能门店小程序dopagefxcount存在SQL注入.md)
 - [同迅科技-神行者路由chkid存在命令执行](./wpoc/同迅科技/同迅科技-神行者路由chkid存在命令执行.md)
 
