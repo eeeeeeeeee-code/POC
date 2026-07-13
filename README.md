@@ -16,6 +16,7 @@
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
 # 2026-7-13
+- [用友政务系统selectMaUser存在SQL注入](./wpoc/用友OA/用友政务系统selectMaUser存在SQL注入.md)
 - [天锐绿盾审批系统findSingConfigPage存在SQL注入](./wpoc/天锐绿盾审批系统/天锐绿盾审批系统findSingConfigPage存在SQL注入.md)
 - [金和OA-AjaxForSetDecompose.ashx存在SQL注入](./wpoc/金和OA/金和OA-AjaxForSetDecompose.ashx存在SQL注入.md)
 - [金和OA-AjaxForCompanyBudgetDecompose.ashx存在SQL注入](./wpoc/金和OA/金和OA-AjaxForCompanyBudgetDecompose.ashx存在SQL注入.md)
