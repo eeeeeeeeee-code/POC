@@ -16,6 +16,8 @@
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
 # 2026-7-13
+- [金和OA-AjaxForCenterBudgetDecompose.ashx存在SQL注入](./wpoc/金和OA/金和OA-AjaxForCenterBudgetDecompose.ashx存在SQL注入.md)
+- [天锐绿盾审批系统ext_mergeQuery存在fastjson反序列化](./wpoc/天锐绿盾审批系统/天锐绿盾审批系统ext_mergeQuery存在fastjson反序列化.md)
 - [FOSSBilling存在SSTI注入(CVE-2026-28496)](./wpoc/FOSSBilling系统/FOSSBilling存在SSTI注入(CVE-2026-28496).md)
 - [Dify系统存在SSRF Gogs_API存在信息泄露(CVE-2026-52815)](./wpoc/Dify系统/Dify系统存在SSRF%20Gogs_API存在信息泄露(CVE-2026-52815).md)
 - [泛微-ecology-10 downLoadSyslog存在任意文件读取](./wpoc/泛微OA/泛微-ecology-10downLoadSyslog存在任意文件读取.md)
