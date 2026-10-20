@@ -14,6 +14,12 @@
 
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络
+# 2026-10-20
+- [快普M6存在sql注入漏洞](./wpoc/快普/快普M6存在sql注入漏洞.md)
+- [月子会所ERP管理云平台SaveFileHandler存在任意文件上传漏洞](./wpoc/月子会所ERP/月子会所ERP管理云平台SaveFileHandler存在任意文件上传漏洞.md)
+- [CRMEB任意文件读取漏洞](./wpoc/CRMEB/CRMEB任意文件读取漏洞.md)
+- [云课网校系统文件上传漏洞](./wpoc/云课网校系统/云课网校系统文件上传漏洞.md)
+- [厦门四信通信科技有限公司设备管理平台存在SQL注入](./wpoc/厦门四信通信科技有限公司/厦门四信通信科技有限公司设备管理平台存在SQL注入.md)
 
 # 2026-7-13
 - [用友政务系统selectMaUser存在SQL注入](./wpoc/用友OA/用友政务系统selectMaUser存在SQL注入.md)
